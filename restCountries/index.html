@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav__logo">Search<span>Country</span></div>
+      <ul class="nav__structure">
+        <li ><a class="nav_link" >Home</a></li>
+        <li ><a class="nav_link" >Product</a></li>
+        <li class="nav_link">Contact Us</li>
+        <button class=" signup_login_btn login_btn">Log In</button>
+        <li class="nav_link signup_login_btn">Sign Up</li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <main>
+    <section class="search-bar">
+      <input type="text" id="search-country" placeholder="Search Country">
+      <button id="search-btn">Search</button>
+    </section>
+    <section class="country-grid">
+    </section>
+    <div id="country-details" class="popup">
+      <div class="popup-content">
+        <img id="country-flag" alt="Country Flag">
+        <h3></h3>
+        <p><b>Capital:</b> <span id="capital"></span></p>
+        <p><b>Population:</b> <span id="population"></span></p>
+      
+        <p><b>weather:</b> <span id="weather"></span></p>
+        <p><b>temp:</b> <span id="temp"></span></p>
+        <p><b>Region:</b> <span id="region"></span></p>
+        <button id="close-details">Close</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Country Search</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
